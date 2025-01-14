@@ -22,7 +22,7 @@ function RagChat() {
         } else {
           clearInterval(interval);
         }
-      }, 40); // Adjust the speed (50ms per character) as needed
+      }, 40); // Adjust the speed (50ms per character) 
 
       return () => clearInterval(interval);
     }
